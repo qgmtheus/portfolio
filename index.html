@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kayky · Desenvolvedor Web</title>
+  <meta name="description" content="Landing pages sob medida com painel de métricas, formulários e integração com WhatsApp.">
+  <meta property="og:title" content="Kayky · Desenvolvedor Web">
+  <meta property="og:description" content="Landing pages sob medida com painel de métricas, formulários e integração com WhatsApp.">
+  <meta property="og:image" content="img/nera.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="container top__inner">
+      <a href="#" class="brand">kayky<span>.</span></a>
+      <nav class="top__nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato" class="top__cta">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Desenvolvedor Web · Landing pages</p>
+        <h1 class="hero__title">Sites que fazem o cliente<br><em>entrar pela porta.</em></h1>
+        <p class="hero__lead">Crio landing pages sob medida para negócios locais, com visual marcante, cardápio ou catálogo interativo, contato direto no WhatsApp e um painel para você ver o que seus clientes mais procuram.</p>
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--gold">Ver projetos</a>
+          <a href="#contato" class="btn btn--outline">Falar comigo</a>
+        </div>
+        <ul class="hero__stats" id="stats"></ul>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Vitrine</p>
+          <h2 class="section__title">Projetos</h2>
+          <p class="section__lead">Todos estão no ar. Abra o site, teste os formulários e entre no painel em modo demonstração.</p>
+        </div>
+        <div class="projects" id="projects"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">O que entrego</p>
+          <h2 class="section__title">Tudo que uma landing<br>page precisa para vender.</h2>
+        </div>
+        <div class="services">
+          <article class="service">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+            <h3>Design sob medida</h3>
+            <p>Visual pensado para a sua marca, responsivo do celular ao desktop, com animações leves.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            <h3>Painel com métricas</h3>
+            <p>Veja visitas, os produtos mais clicados e quais botões geram contato.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4Z"/></svg>
+            <h3>Contato e WhatsApp</h3>
+            <p>Formulários que chegam no painel, avaliações moderadas e pedido direto no WhatsApp.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+            <h3>No ar e com domínio</h3>
+            <p>Publicação, domínio próprio e banco de dados configurados. Você só compartilha o link.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container contact">
+        <p class="eyebrow">Vamos conversar</p>
+        <h2 class="section__title">Tem um negócio que<br>merece um site assim?</h2>
+        <p class="section__lead">Me conte o que você precisa. Respondo rápido.</p>
+        <div class="contact__links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="brand">kayky<span>.</span></span>
+      <p>© <span id="year"></span> · Feito à mão com HTML, CSS e JavaScript</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
