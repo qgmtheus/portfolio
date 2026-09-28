@@ -2,7 +2,7 @@
 export const PROFILE = {
   name: 'Kayky',
   role: 'Desenvolvedor Web',
-  github: 'https://github.com/mekayky',
+  github: 'https://github.com/qgmtheus',
   email: '',      // ex.: 'voce@email.com' (fica oculto enquanto vazio)
   whatsapp: '',   // ex.: '5511999999999'
   instagram: '',  // ex.: 'https://instagram.com/seu.perfil'
@@ -19,7 +19,7 @@ export const PROJECTS = [
     image: 'img/nera.jpg',
     site: '__NERA_URL__',
     admin: '__NERA_URL__/admin',
-    code: 'https://github.com/mekayky/nera-restaurante',
+    code: 'https://github.com/qgmtheus/nera-restaurante',
     accent: '#c9a24a',
   },
 ];
